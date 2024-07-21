@@ -17,7 +17,7 @@ class AcercaDePage extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50,
-              backgroundImage: NetworkImage(oficial.fotoUrl),
+              backgroundImage: AssetImage(oficial.fotoUrl),
             ),
             const SizedBox(height: 20),
             Text(
